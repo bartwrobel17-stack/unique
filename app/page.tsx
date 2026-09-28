@@ -10,7 +10,6 @@ import {
   ChevronRight,
   Clock3,
   ExternalLink,
-  Instagram,
   MapPin,
   Menu,
   Phone,
