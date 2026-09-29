@@ -52,7 +52,7 @@ export default function Home() {
   const [gallery, setGallery] = useState(initialGallery);
   const [menuOpen, setMenuOpen] = useState(false);
   const [panelOpen, setPanelOpen] = useState(false);
-  const [activeImage, setActiveImage] = useState(0);
+  const [activeImage, setActiveImage] = useState(-1);
   const [password, setPassword] = useState("");
   const [authorized, setAuthorized] = useState(false);
   const [newImage, setNewImage] = useState("");
