@@ -137,17 +137,6 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="hero-visual">
-          <div className="hero-image" style={{ backgroundImage: `url(${gallery[0]})` }} />
-          <div className="hero-card">
-            <Scissors size={18} />
-            <div>
-              <strong>Unique</strong>
-              <span>Białoskórnicza 5</span>
-            </div>
-          </div>
-          <div className="hero-stamp">EST.<br />WROCŁAW</div>
-        </div>
       </section>
 
       <section className="quick-bar">
