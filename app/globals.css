@@ -31,7 +31,7 @@ a { color: inherit; text-decoration: none; }
 .header-cta { font-size: 13px; font-weight: 700; display: flex; align-items: center; gap: 8px; }
 .mobile-menu { display: none; border: 0; background: none; }
 
-.hero { min-height: 690px; display: grid; grid-template-columns: 1fr 1fr; padding: 64px 5vw 70px; gap: 7vw; overflow: hidden; }
+.hero { min-height: 690px; display: flex; align-items: center; padding: 90px 5vw 100px; overflow: hidden; background: var(--paper); }
 .hero-copy { display: flex; flex-direction: column; justify-content: center; max-width: 670px; }
 .eyebrow, .section-label { letter-spacing: .18em; font-size: 10px; font-weight: 700; color: var(--muted); }
 .eyebrow { display: flex; align-items: center; gap: 10px; }
@@ -221,3 +221,10 @@ em { font-family: "Playfair Display", Georgia, serif; font-weight: 500; }
   .lightbox-arrow.left { left: 8px; }
   .lightbox-arrow.right { right: 8px; }
 }
+
+/* Homepage opens as a full website, not a photo-first landing screen. */
+.hero-copy { width: 100%; max-width: 980px; margin: 0 auto; text-align: center; align-items: center; }
+.hero-copy .eyebrow { justify-content: center; }
+.hero-lead { margin-left: auto; margin-right: auto; }
+.hero-actions { justify-content: center; }
+.hero-trust { justify-content: center; }
